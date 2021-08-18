@@ -23,14 +23,14 @@ public static class Program
 		}
 	}  
 	
-	static double?[] QuadraticEquation(int a, int b, int c) 
+	static double?[] QuadraticEquation(double a, double b, double c) 
 	{
 		double? x1 = 0;
 		double? x2 = 0;
 		
-		int det = b*b - 4*a*c;
+		double det = b*b - 4*a*c;
 		
-		Console.WriteLine("Det = " + det);
+		// Console.WriteLine("Det = " + det);
 		
 		if(det < 0) 
 		{
