@@ -39,7 +39,7 @@ public static class Program
 		} 
 		else if(det == 0) 
 		{
-			x1 = b*b / 2;
+			x1 = -b / 2;
 			x2 = null;
 		}
 		else 
