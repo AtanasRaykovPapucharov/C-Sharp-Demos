@@ -28,11 +28,52 @@ string DecimalToBinary(int number)
     int remainder;
     string result = string.Empty;
     
-    while (number > 0)
+    while (number >= 0)
     {
         remainder = number % 2;
         number /= 2;
         result = remainder.ToString() + result;
+    }
+    
+    return result;
+}
+```
+
+# Even or Odd
+```cs
+bool isOdd(long number)
+{
+    if(number % 2 == 1)
+    {
+        return true;
+    }
+    
+    return false;
+}
+
+//-------------------------
+	
+bool isEven(long number)
+{
+    if(number % 2 == 0)
+    {
+        return true;
+    }
+    
+    return false;
+}
+```
+
+# Factorial
+```cs
+BigInteger factorial(int number)
+{
+    BigInteger result = 1;
+    
+    while(number > 0)
+    {
+        result *= number;
+        number--;
     }
     
     return result;

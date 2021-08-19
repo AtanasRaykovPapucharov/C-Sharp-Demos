@@ -14,7 +14,7 @@ public static class Program
 		int remainder;
 		string result = string.Empty;
 		
-		while (number > 0)
+		while (number >= 0)
 		{
 			remainder = number % 2;
 			number /= 2;

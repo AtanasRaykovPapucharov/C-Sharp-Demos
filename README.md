@@ -10,6 +10,10 @@
 
 - [Decimal To Binary](https://github.com/AtanasRaykovPapucharov/C-Sharp-Demos/blob/main/Examples/DecimalToBinary.cs)
 
+- [Even or Odd](https://github.com/AtanasRaykovPapucharov/C-Sharp-Demos/blob/main/Examples/EvenOrOdd.cs)
+
+- [Factorial](https://github.com/AtanasRaykovPapucharov/C-Sharp-Demos/blob/main/Examples/Factorial.cs)
+
 - [Fibonacci Series](https://github.com/AtanasRaykovPapucharov/C-Sharp-Demos/blob/main/Examples/Fibonacci.cs)
 
 - [Prime Numbers](https://github.com/AtanasRaykovPapucharov/C-Sharp-Demos/blob/main/Examples/PrimeNumbers.cs)
