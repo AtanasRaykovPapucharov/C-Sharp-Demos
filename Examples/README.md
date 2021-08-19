@@ -66,6 +66,39 @@ string Fibonacci(int n)
 } 
 ```
 
+# Prime Numbers
+```cs
+bool isPrimeNumber(long number)
+{
+    for(long testNumber = 2; testNumber < number; testNumber++)
+    {
+        if (number % testNumber == 0)
+        {
+            return false;
+        }
+    }	
+    
+    return true;
+}
+```
+
+```cs
+string getPrimeNumbers(long number)
+{
+    string primeNumbers = String.Empty;
+    
+    for(long i = 2; i <= number; i++) 
+    {
+        if(isPrimeNumber(i))
+        {
+            result += i + " ";
+        }
+    }
+    
+    return primeNumbers;
+}
+```
+
 # Quadratic Equation
 
 ```cs

@@ -12,4 +12,6 @@
 
 - [Fibonacci Series](https://github.com/AtanasRaykovPapucharov/C-Sharp-Demos/blob/main/Examples/Fibonacci.cs)
 
+- [Prime Numbers](https://github.com/AtanasRaykovPapucharov/C-Sharp-Demos/blob/main/Examples/PrimeNumbers.cs)
+
 - [Quadratic Equation](https://github.com/AtanasRaykovPapucharov/C-Sharp-Demos/blob/main/Examples/QuadraticEquation.cs)
